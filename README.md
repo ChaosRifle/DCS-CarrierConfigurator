@@ -1,1 +1,1 @@
-# DCS-Template
+# DCS-CarrierConfigurator
