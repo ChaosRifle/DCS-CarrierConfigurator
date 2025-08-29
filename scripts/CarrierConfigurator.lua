@@ -1,13 +1,13 @@
 --CarrierConfigurator
-
+--version:                          1.0
 
 --THIS SCRIPT REQUIRES THE FOLLOWING PUBLIC VARIABLES:
 --SuperCarrierID = UnitID (from the mission editor)
 --LHATarawaID = UnitID (from the mission editor)
 
 --default config, change in the config file
-local templateSubDir = 'carrierconfiguration/'
-local carrierTypeSubDir = {'supercarrier/', 'lha/'}
+local templateSubDir = [[carrierconfiguration\]]
+local carrierTypeSubDir = {[[supercarrier\]], [[lha\]]}
 local initialSuperCarrierConfig = {'Corral', 'EngineTest', 'Finger', 'FingerExtra', 'IslandCrew', 'IslandParkingAISafe', 'IslandParkingAIUnsafe', 'Junkyard', 'LSO', 'Patio', 'Point', 'Sixpack'}
 local initialLHAConfig = {'Bow-1980s', 'Junkyard-1980s', 'Stern-UnblockedHarrier-1980s' }
 
