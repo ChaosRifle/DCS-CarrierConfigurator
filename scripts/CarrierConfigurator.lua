@@ -1,5 +1,5 @@
 --CarrierConfigurator
---version:                          1.0
+--version:                          1.0.1
 
 --THIS SCRIPT REQUIRES THE FOLLOWING PUBLIC VARIABLES:
 --SuperCarrierID = UnitID (from the mission editor)
@@ -133,5 +133,10 @@ end
 
 
 --Game Start
-SuperCarrierInitialConfig()
-TarawaInitialConfig()
+if SuperCarrierID then
+    SuperCarrierInitialConfig()
+end
+
+if LHATarawaID then
+    TarawaInitialConfig()
+end
