@@ -1,5 +1,5 @@
 --CarrierConfigurator
---version:                          1.0.1
+local version = '1.0.2'
 
 --THIS SCRIPT REQUIRES THE FOLLOWING PUBLIC VARIABLES:
 --SuperCarrierID = UnitID (from the mission editor)
@@ -140,3 +140,4 @@ end
 if LHATarawaID then
     TarawaInitialConfig()
 end
+
